@@ -2,7 +2,9 @@
 
 # Introduction
 
-This project programs a Raspberry Pi Pico to act as a USB input device. I use it with Microsoft Flight Simulator. The hardware is a simple button box consisting of 4 buttons and 4 rotary encoders. There is also a potentiometer attach to an analog input which mimics a Cessna ignition key. The key has 5 postions which are Off, Right Magneto, Left Magneto, Both Magnetos and Start. The Start position is spring loaded so the key returns to the Both position once released.
+This project programs a Raspberry Pi Pico to act as a USB input device. I use it with Microsoft Flight Simulator.
+
+The hardware is a simple button box consisting of 4 buttons and 4 rotary encoders. There is also a potentiometer attached to an analog input which mimics a Cessna ignition key. The key has 5 positions which are Off, Right Magneto, Left Magneto, Both Magnetos and Start. The Start position is spring loaded so the key returns to the Both position once released.
 
 To ensure no clicks get skipped on the rotary encoders I decided to map each encoder to a joystick axis. An absolute position is then sent depending on how much the encoder is rotated (positive or negative).
 
