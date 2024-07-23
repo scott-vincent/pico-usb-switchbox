@@ -16,3 +16,21 @@ I used Edward Wright's excellent JoystickXL library for CircuitPython and added 
 2. Add the files from this repo
 3. Unplug and replug the Pico to pick up the new boot.py
 4. Run Game Controllers (in Windows) to confirm the joystick inputs are working. Note that the axis inputs will be tiny when you rotate the encoders as it only adds or subtracts 1 for each click of the encoder.
+
+# A table summarizing the inputs mentioned in the code and their corresponding pins
+
+| Input Type | Pins on RPI PICO Board |
+| ---------- | ----------------------------- |
+| Rotary Encoder 1 | GP1, GP0 |
+| Rotary Encoder 2 | GP4, GP5 |
+| Rotary Encoder 3 | GP8, GP9 |
+| Rotary Encoder 4 | GP13, GP12 |
+| Button 1 (with Encoder) | GP15 |
+| Button 2 (with Encoder) | GP3 |
+| Button 3 (with Encoder) | GP7 |
+| Button 4 (with Encoder) | GP11 |
+| Button 5 | GP2 |
+| Button 6 | GP10 |
+| Button 7 | GP6 |
+| Button 8 | GP14 |
+| Analog Input (Potentiometer) | GP28 |
